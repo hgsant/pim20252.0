@@ -1,5 +1,5 @@
 
-from algorithms import merge_sort, binary_search
+from .algorithms import merge_sort, binary_search
 
 def test_merge_sort_and_binary_search():
     seq = [5,3,8,1,9,2]

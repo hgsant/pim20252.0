@@ -1,8 +1,8 @@
 
 import json
 from typing import List, Dict
-from data_models import Aluno, Turma, Aula, Presenca, Nota
-from algorithms import merge_sort, binary_search, build_index
+from .data_models import Aluno, Turma, Aula, Presenca, Nota
+from .algorithms import merge_sort, binary_search, build_index
 
 def load_sample(path: str = "sample_data.json"):
     with open(path, "r", encoding="utf-8") as f:

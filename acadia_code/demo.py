@@ -1,6 +1,6 @@
 
-from reports import load_sample, gerar_relatorio, ranking_por_media
-from algorithms import merge_sort, binary_search
+from .reports import load_sample, gerar_relatorio, ranking_por_media
+from .algorithms import merge_sort, binary_search
 from c_bindings import calc_media, get_situacao
 
 def main():
